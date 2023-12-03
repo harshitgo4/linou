@@ -1,0 +1,35 @@
+/* styles.css */
+
+.review-box {
+    width: 30%; /* Adjust the width as needed */
+    height: auto;
+    background-color: white;
+    box-shadow: md;
+    padding: 4;
+    border-radius: md;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .review-box:hover {
+    transform: scale(1.1);
+  }
+  
+  .review-container {
+    display: flex;
+    justify-content: center;
+    overflow: hidden; /* To hide overflowing reviews when they loop */
+  }
+  
+  .review-movement {
+    animation: moveLeftToRight 6s linear infinite; /* Adjusted duration for smoother looping */
+  }
+  
+  @keyframes moveLeftToRight {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%); /* Moved the entire width to the left to create a looping effect */
+    }
+  }
+  
