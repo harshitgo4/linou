@@ -51,6 +51,7 @@ const First = () => {
           borderRadius={10}
           fontSize="20"
           fontFamily="Plus Jakarta Sans"
+          color={'white'}
           _hover={{ transform: 'scale(1.2)' }}
         >
           Get Started, it's free
