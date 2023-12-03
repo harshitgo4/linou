@@ -3,7 +3,7 @@ import React from 'react'
 import img2 from '../images/image2.webp'
 const Third = () => {
   return (
-    <div>
+    <div id='features'>
       <Flex
       justifyContent="center"   // Center horizontally
       alignItems="center"       // Center vertically

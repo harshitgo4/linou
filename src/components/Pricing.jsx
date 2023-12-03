@@ -6,6 +6,7 @@ const CustomSwitch = ({ isAnnually, setToMonthly, setToAnnually }) => {
   return (
     <Center>
       <Box
+        id='pricing'
         mt={'10'}
         className="custom-switch"
         backgroundColor="rgb(243,243,243)"

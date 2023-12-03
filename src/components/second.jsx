@@ -3,7 +3,7 @@ import React from 'react'
 import img1 from '../images/king.webp'
 const second = () => {
   return (
-    <div id='features'>
+    <div >
         <Flex justifyContent={'center'} alignItems={'center'} h={'100vh'} w={'100%'}>
         <Box
       width="80%"

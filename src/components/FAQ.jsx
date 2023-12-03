@@ -44,9 +44,10 @@ const data = [
     return (
         <>
         
-        <Center>
+        <Center >
         <VStack>
       <Box
+        id='faqs'
         alignItems="center"
         w="fit-content"
         h="6%"

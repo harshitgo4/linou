@@ -3,7 +3,7 @@ import React from 'react'
 
 const Third = () => {
   return (
-    <div>
+    <div id='testimonial'>
       <Flex
       justifyContent="center"   // Center horizontally
       alignItems="center"       // Center vertically
